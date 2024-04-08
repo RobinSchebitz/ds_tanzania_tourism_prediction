@@ -3,6 +3,7 @@
 The objective of this hackathon is to develop a machine learning model to predict what a tourist will spend when visiting Tanzania.The model can be used by different tour operators and the Tanzania Tourism Board to automatically help tourists across the world estimate their expenditure before visiting Tanzania.
 
 # Key Points
+Given data (test.csv) for a tourist traveling to Tanzania,  this can be used as input for the necessary features. Our model would then try to predict the total cost of this individual tourist.
 
 * Machine Learning Model
     * Predict Total Cost of Tourists
@@ -14,3 +15,14 @@ The objective of this hackathon is to develop a machine learning model to predic
     * Adjusted R^2
     * MSE (Value) & RMSE (Original Value)
     * MAPE (Percentage of MAE)
+
+* Models
+    * Linear Regression
+    * KNearest Neighbor
+    * Decision Trees
+    * Random Forest
+    * Support Vector Machine
+
+* Data
+    Currency
+    Total group size
