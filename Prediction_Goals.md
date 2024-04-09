@@ -54,3 +54,11 @@ Given data (test.csv) for a tourist traveling to Tanzania,  this can be used as 
     * Linear Regression
     * Focus on 1 or 2 Columns
     * Take the mean of the cost
+
+# Things to try
+    * Pay attention to MPE (Mean percentage Error) instead of only MRSE
+    * Deal with Outliers - Train 2 or more models in parallel
+    * Finding where the error comes from:
+        * Make a model for a certain 'normal' range of tourist and therefore exclude the outliers for now
+        * Interquartil Range Distribution (4 *25%)
+        -> Take this to get rid of the outliers
